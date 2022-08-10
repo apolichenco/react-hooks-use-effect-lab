@@ -60,3 +60,4 @@ test("clears the timeout after unmount", () => {
   unmount();
   expect(clearTimeout).toHaveBeenCalled();
 });
+ 
